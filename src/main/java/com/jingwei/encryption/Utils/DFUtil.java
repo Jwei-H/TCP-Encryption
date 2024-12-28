@@ -3,9 +3,9 @@ package com.jingwei.encryption.Utils;
 import java.math.BigInteger;
 
 public class DFUtil {
-    private BigInteger primeNum;
-    private BigInteger primitiveRoot;
-    private BigInteger privateSecretKey;
+    private final BigInteger primeNum;
+    private final BigInteger primitiveRoot;
+    private final BigInteger privateSecretKey;
 
     public DFUtil(BigInteger primeNum, BigInteger primitiveRoot, BigInteger privateSecretKey) {
         this.primeNum = primeNum;

@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
+/*统计不同长度素数对破解密钥时长的影响*/
 public class DiffieHellmanCrack {
     public static void main(String[] args) {
         BigInteger g = new BigInteger("5");
